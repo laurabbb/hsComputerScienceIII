@@ -1,0 +1,16 @@
+﻿Talonette CostumerApplet Documentation
+* To start the program, click on the file, open it, and run it in an IDE (jGrasp is recommended)
+* Click ‘h’ for home (which is the screen the user is currently on) or ‘c’ for Costume Chooser. The costume chooser is the main portion of the applet. Whenever the question is “What would you like to do?” choose one of the two options.
+* After pressing ‘c’, the main menu comes up on the Costume Chooser section
+* Press either ‘t’, ‘c’, or ‘q’ to determine what organization method you would like to search by
+   * ‘t’ stands for the type of costumes
+   * ‘c’ stands for the color of costumes
+   * ‘q’ stands for the quantity of costumes
+* After selecting an organization method, enter the parameter it is asking for
+   * If searching by type, enter the style of dance costume you want (Jazz, contemporary, hip hop, or misc)
+   * If searching by color, enter the color of dance costume you want (blue, green, grey, navy, brown, purple, black, red, rose, rose gold, gold, light pink, or pink)
+   * If searching by quantity, enter the numerical value (via numbers, not words) of the minimum number of costumes you need
+* After using the program, you will be prompted if you want to ask it something again, if you do, press either ‘y’ or ‘Y’. If you do not want to continue, press either ‘n’, ‘N’, or any other key on the keyboard.
+Troubleshooting:
+* If the applet is only partially showing, you need to change the size of the applet window of your compiler. It needs to be a width of 1000px and a height of 650px. For jGrasp you should go to “Settings”, then “Compiler Settings”, then “Workspace”, and select java, click “Applet HTML”, copy the text, uncheck the default box, paste the text back into the box, change width and height, and then press apply.
+* Ensure that the costumes.txt and CostumerApplet.java are installed in the same path
